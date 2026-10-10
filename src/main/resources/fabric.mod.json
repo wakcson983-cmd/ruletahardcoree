@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "ruleta",
+  "version": "${version}",
+  "name": "Ruleta Hardcore",
+  "description": "Item ruleta con menú, comandos por color y animación roja.",
+  "authors": ["Tu nombre"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.ruleta.RuletaMod"],
+    "client": ["com.ruleta.client.RuletaClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
